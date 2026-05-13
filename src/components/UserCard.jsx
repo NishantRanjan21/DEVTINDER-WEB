@@ -11,9 +11,9 @@ const UserCard = ({ user }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{firstName + " " + lastName}</h2>
-          {age && <p>age: {age}</p>}
-          {gender && <p>gender: {gender}</p>}
-          <p>{about}</p>
+          {age && <p>Age: {age}</p>}
+          {gender && <p>Gender: {gender}</p>}
+          <p>About: {about}</p>
           <div className="card-actions justify-between border-t border-gray-600 mt-4 pt-4">
             <button className="btn btn-error">Ignore</button>
             <button className="btn btn-success">Send Request</button>
